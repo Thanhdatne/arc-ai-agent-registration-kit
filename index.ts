@@ -262,5 +262,6 @@ async function main() {
 
 main().catch((error) => {
   console.error("\nError:", error.message ?? error);
+  
   process.exit(1);
 });
