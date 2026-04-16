@@ -106,3 +106,22 @@ Copy the Entity Secret (64 hexadecimal characters) and paste it into the `.env` 
 CIRCLE_ENTITY_SECRET=paste_entity_secret_here`
 
 6. Create developer-controlled wallets
+
+After obtaining the `API Key` and `Entity Secret` in the `.env` file, create the `index.ts` file.
+Edit with the following content in `index.ts`
+
+Run
+```
+npm run start
+```
+<img width="1693" height="1038" alt="github ai" src="https://github.com/user-attachments/assets/c1e6206a-b22f-44b1-a6d0-a2470ffcfc49" />
+
+You will see two wallet addresses printed out on the Arc Testnet.
+
+Explanation:
+Owner Wallet: Used to own the AI ​​Agent (cannot vote for its own reputation).
+Validator Wallet: Used to record the agent's reputation.
+
+Both are SCA (Smart Contract Account) on ARC-TESTNET.
+
+After successful execution, you will have two wallet addresses. Copy them to use in the next step.
